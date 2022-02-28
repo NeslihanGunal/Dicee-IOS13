@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="AppBreweryBackground" translatesAutoresizingMaskIntoConstraints="NO" id="udt-uR-m1S">
+                                <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppBreweryLogo" translatesAutoresizingMaskIntoConstraints="NO" id="CfL-rg-mi0">
+                                <rect key="frame" x="311" y="158" width="190" height="59"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn To Code By Making App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ZO-4O-1MG">
+                                <rect key="frame" x="291" y="247" width="230" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6ZO-4O-1MG" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="48I-es-gJo"/>
+                            <constraint firstItem="6ZO-4O-1MG" firstAttribute="top" secondItem="CfL-rg-mi0" secondAttribute="bottom" constant="30" id="8I6-YH-OeI"/>
+                            <constraint firstAttribute="bottom" secondItem="udt-uR-m1S" secondAttribute="bottom" id="97t-k3-YWz"/>
+                            <constraint firstItem="udt-uR-m1S" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="KNS-vS-Mii"/>
+                            <constraint firstItem="CfL-rg-mi0" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ae4-EH-cnb"/>
+                            <constraint firstItem="CfL-rg-mi0" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="cbU-To-dgx"/>
+                            <constraint firstAttribute="trailing" secondItem="udt-uR-m1S" secondAttribute="trailing" id="pqh-Cv-UzB"/>
+                            <constraint firstItem="udt-uR-m1S" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="t7D-sd-tfI"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-369" y="171"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AppBreweryBackground" width="596" height="842"/>
+        <image name="AppBreweryLogo" width="190" height="59"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
